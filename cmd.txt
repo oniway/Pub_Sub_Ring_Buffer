@@ -1,0 +1,11 @@
+create topic 1 "treeeeee" 13 
+create topic 2 "hillllll" 16
+query topics
+add publisher "pub1.txt"
+add publisher "pub1.txt"
+query publishers
+add subscriber "sub1.txt"
+add subscriber "sub1.txt"
+query subscribers
+delta 1
+start
